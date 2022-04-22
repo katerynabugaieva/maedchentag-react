@@ -6,10 +6,10 @@ function Insta () {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
-  console.log('Username:', username, 'Passwort:', password)
   const submit = e => {
     e.preventDefault();
     alert('Ich bin drin!')
+    console.log('Username:', username, 'Passwort:', password)
   };
 
   return (
