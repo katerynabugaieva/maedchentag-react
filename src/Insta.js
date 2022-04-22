@@ -9,7 +9,9 @@ function Insta () {
   const submit = e => {
     e.preventDefault();
     alert('Ich bin drin!')
-    console.log('Username:', username, 'Passwort:', password)
+    console.log('Username:', username)
+    console.log('Passwort: "', password, '"')
+
   };
 
   return (
