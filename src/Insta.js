@@ -6,6 +6,7 @@ function Insta () {
   const [username, setUsername] = useState('');
   const [password, setPassword] = useState('');
 
+  console.log('Username:', username, 'Passwort:', password)
   const submit = e => {
     e.preventDefault();
     alert('Ich bin drin!')
@@ -14,7 +15,7 @@ function Insta () {
   return (
     <form onSubmit={submit} className="login-form-insta">
         <div className='inputDivFb'>
-            <img src='instagram.png'/>
+            <img src='instagram.png' alt='insta'/>
         </div>
       
         <div className='inputDivRM'>
@@ -44,7 +45,7 @@ function Insta () {
         </div>
 
         <div className='submitButtonDivRM'>
-            <a id='vergessenI'>Passwort vergessen?</a>
+            <a id='vergessenI' href='validString'>Passwort vergessen?</a>
         </div>
 
     <h4>resultat</h4>

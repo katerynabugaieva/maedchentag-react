@@ -6,7 +6,7 @@ function Technical () {
     <form className="login-form-rmv">
         <h2 id="titleRM">Ich bin bereits meinRMV-Nutzer:</h2>
         <div className='inputDivRM'>
-            <img src='user.png' className='icon'/>
+            <img src='user.png' className='icon' alt='user'/>
             <input
                 className="inputsRt"
                 type="text"
@@ -15,7 +15,7 @@ function Technical () {
         </div>
 
         <div className="inputDivRM">
-            <img src='lock.png' className='icon'/>
+            <img src='lock.png' className='icon' alt='lock'/>
             <input
                 className="inputsRt"
                 type="text"

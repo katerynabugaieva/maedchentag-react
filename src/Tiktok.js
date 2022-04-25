@@ -17,7 +17,7 @@ function Tiktok () {
         { Sources.map((item, key) => 
         <div className='linkTiktokDiv' key={key}>
           <div className='linkTiktokIcon'>
-            <img src={item.img} className='linkTiktokIcon' />
+            <img src={item.img} className='linkTiktokIcon' alt={item.link}/>
           </div>
           <div className='linkTiktok'>
             {item.link}

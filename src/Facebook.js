@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './Facebook.css'
 
 function Facebook() {
@@ -30,7 +30,7 @@ function Facebook() {
       <button type="submit" id='submitButtonFb'>Anmelden</button>
       </div>
 
-     <div className='linkDivFb'> <a className='linkFb' href='#'>Passwort vergessen?</a>
+     <div className='linkDivFb'> <a className='linkFb' href='validLink'>Passwort vergessen?</a>
      </div>
       <hr className='dividerFb'/>
       <div className='submitButtonDivFb'>
