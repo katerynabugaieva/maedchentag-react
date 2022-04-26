@@ -14,12 +14,4 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
 [![Netlify Status](https://api.netlify.com/api/v1/badges/196f8aca-999b-4feb-a487-32d13bff47d0/deploy-status)](https://app.netlify.com/sites/girls-day/deploys)
